@@ -12,6 +12,8 @@
 		9CA2954C28CAA91300642FA0 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2954B28CAA91300642FA0 /* Experience.rcproject */; };
 		9CA2954E28CAA91300642FA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2954D28CAA91300642FA0 /* Assets.xcassets */; };
 		9CA2955128CAA91300642FA0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CA2955028CAA91300642FA0 /* Preview Assets.xcassets */; };
+		9CA2955828CAA94E00642FA0 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2955728CAA94E00642FA0 /* Coordinator.swift */; };
+		9CA2955A28CAA96700642FA0 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CA2955928CAA96700642FA0 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		9CA2954B28CAA91300642FA0 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		9CA2954D28CAA91300642FA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CA2955028CAA91300642FA0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CA2955728CAA94E00642FA0 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		9CA2955928CAA96700642FA0 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				9CA2954728CAA91300642FA0 /* AppDelegate.swift */,
 				9CA2954928CAA91300642FA0 /* ContentView.swift */,
+				9CA2955728CAA94E00642FA0 /* Coordinator.swift */,
+				9CA2955928CAA96700642FA0 /* ViewModel.swift */,
 				9CA2954B28CAA91300642FA0 /* Experience.rcproject */,
 				9CA2954D28CAA91300642FA0 /* Assets.xcassets */,
 				9CA2954F28CAA91300642FA0 /* Preview Content */,
@@ -140,6 +146,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CA2955A28CAA96700642FA0 /* ViewModel.swift in Sources */,
+				9CA2955828CAA94E00642FA0 /* Coordinator.swift in Sources */,
 				9CA2954A28CAA91300642FA0 /* ContentView.swift in Sources */,
 				9CA2954828CAA91300642FA0 /* AppDelegate.swift in Sources */,
 				9CA2954C28CAA91300642FA0 /* Experience.rcproject in Sources */,
